@@ -19,9 +19,9 @@ img{
 .header{
   box-sizing: border-box;
   padding: 51px 227px 0;
-  background: linear-gradient(-65deg, #fcfcfc, #fcfcfc 30%, #56ccf2 25%, #56ccf2);
-  /*height: 850px;*/
-  position: relative;
+  background: linear-gradient(-65deg, #fcfcfc, #fcfcfc 30%, #56ccf2 26%, #56ccf2);
+  background-size: 112% 79%;
+  background-repeat: no-repeat;
 }
 .header-nav {
   width: 948px;
