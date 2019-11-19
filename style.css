@@ -709,6 +709,7 @@ img{
 }
 .footer-link{
   text-decoration: none;
+  color: #253757;
 }
 .footer-nav-list{
   list-style-type: none;
@@ -719,4 +720,5 @@ img{
 .footer-nav-link{
   text-decoration: none;
   margin-left: 63px;
+  color: #253757;
 }
