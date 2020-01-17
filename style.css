@@ -524,6 +524,7 @@ img{
   align-items: center;
   justify-content: center;
   margin: 0 auto;
+  transition: all .3s ease;
 }
 .vision-button:hover, .sendmessage-button:hover{
   background: #253757;
@@ -668,6 +669,7 @@ img{
   cursor: pointer;
   border: none;
   outline: none;
+  transition: all .3s ease;
 }
 .contactus-call{
   margin: 43px 0;
