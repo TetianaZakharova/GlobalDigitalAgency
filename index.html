@@ -160,11 +160,11 @@
 	  <div class="contacts-wrap">
         <div class="sendmessage">
 		  <h2 class="sendmessage-point">Send us a message</h2>
-	      <form class="sendmessage-form">
-		    <input type="email" placeholder="Your email" class="email">
-			<input type="text" placeholder="Your name" class="name">
-			<input type="text" placeholder="Your message" class="message">
-		  </form> 
+	      <form  method="POST" action="somepage.php" class="sendmessage-form">
+	        <input type="email" placeholder="Your email" class="email" name="email">
+		<input type="text" placeholder="Your name" class="name" name="name">
+		<input type="text" placeholder="Your message" class="message" name="message">
+	      </form> 
 		  <button class="sendmessage-button">Send</button>
 	    </div>
 	    <div class="contactus">
