@@ -539,6 +539,7 @@ img{
   border-radius: 500px;
   border: 5px solid;
   transform: rotate(-65deg);
+  transition: all 0.2s ease;
 }
 .elips:hover{
   transform: scale(1.1) rotate(-65deg);
