@@ -701,8 +701,11 @@ img{
   text-decoration: none;
   margin-right: 48px;
 }
+.socialmedia-icon{
+  transition: all .2s ease;
+}
 .socialmedia-icon:hover{
-  transform: scale(1.1);
+  transform: scale(1.2);
 }
 .footer{
   padding: 0 227px;
