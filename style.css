@@ -736,4 +736,8 @@ img{
   text-decoration: none;
   margin-left: 63px;
   color: #253757;
+  transition: all 0.2s ease;
+}
+.footer-nav-link:hover{
+  color: rgb(238, 80, 106);  
 }
