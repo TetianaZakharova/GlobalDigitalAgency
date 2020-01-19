@@ -1,23 +1,28 @@
 'use strict';
 
-const navinput = document.querySelectorAll('.navinput');
-const navlabel = document.querySelectorAll('.navlabel')
-const navlist = document.querySelector('.nav-list')
-const navlistitem = document.querySelectorAll('.nav-list__item')
-const navlistlink = document.querySelectorAll('.nav-list__link')
-const navlistsubmenu = document.querySelectorAll('.nav-list__submenu')
+var slideIndex = 1;
+showSlides(slideIndex);
 
-  const hiddenListener = navIndex => {
-    return () => {
-        navlistitem.forEach((item, index) => {
-            if (index !== navIndex) {
-                item.hidden = true;
-            }
-        });
-    }
+function plusSlides(n) {
+  showSlides(slideIndex += n);
 }
-    for (let i = 0; i < navlistitem.length; i++) {
-    navlistitem[i].onclick = hiddenListener(i);
-    }
 
-    
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("blogSlides");
+ 
+  if (n > slides.length) {
+    slideIndex = 1
+  }
+  if (n < 1) {
+    slideIndex = slides.length
+  }
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+   slides[slideIndex - 1].style.display = "block";
+}   
