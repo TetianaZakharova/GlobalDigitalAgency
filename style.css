@@ -741,3 +741,16 @@ img{
 .footer-nav-link:hover{
   color: rgb(238, 80, 106);  
 }
+.fade {
+  animation-name: fade;
+  animation-duration: .5s;
+}
+
+@keyframes fade {
+  from {
+    opacity: .7
+  }
+  to {
+    opacity: 1
+  }
+}
