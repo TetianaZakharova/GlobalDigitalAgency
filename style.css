@@ -175,6 +175,7 @@ img{
   position: absolute;
   top: 50%;
   left: -80px;
+  transition: all 0.2s ease;
 }
 .right{
   width: 80px;
@@ -185,6 +186,7 @@ img{
   position: absolute;
   top: 50%;
   left: 0;
+  transition: all 0.2s ease;
 }
 .welcome{
   padding: 165px 400px 136px;
