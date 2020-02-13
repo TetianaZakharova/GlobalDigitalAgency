@@ -168,9 +168,18 @@
         <div class="sendmessage">
 		  <h2 class="sendmessage-point">Send us a message</h2>
 	      <form  method="POST" action="somepage.php" class="sendmessage-form">
-	        <input type="email" placeholder="Your email" class="email" name="email">
-		<input type="text" placeholder="Your name" class="name" name="name">
-		<input type="text" placeholder="Your message" class="message" name="message">
+	        			<div>
+			  <input type="email"  id="email" class="email" name="email">
+			  <label for="email">Your email</label>
+			</div>
+			<div>
+				<input type="email"  id="name" class="name" name="name">
+				<label for="name">Your name</label>
+			  </div>
+			  <div>
+				<input  type="email" id="message" class="message" name="message">
+				<label for="message">Your message</label>
+			  </div>
 		<button type="submit" class="sendmessage-button">Send</button>
 	      </form> 
 		  
