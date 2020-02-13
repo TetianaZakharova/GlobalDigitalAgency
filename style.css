@@ -747,7 +747,47 @@ img{
   animation-name: fade;
   animation-duration: .5s;
 }
-
+form > div {
+  position: relative;
+  overflow: hidden;
+}
+form input {
+  width: 100%;
+  border: 2px solid gray;
+  position: relative;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  padding: 8px 12px;
+  outline: 0;
+}
+form input:valid{
+  background: none;
+}
+form input:focus + label{
+  background: #aba5a5;
+  color: white;
+  font-size: 70%;
+  padding: 1%;
+  z-index: 2;
+  text-transform: uppercase;
+}
+form label {
+  transition: bottom 0.5s, right 0.5s, left 0.5s;
+  position: absolute;
+  color: #999;
+  padding: 8px 12px;
+}
+form.sendmessage-form label{
+  top: 25%;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+form.sendmessage-form input:focus + label{
+  top: 100%;
+  margin-top: -24px;
+}
 @keyframes fade {
   from {
     opacity: .7
